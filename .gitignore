@@ -1,0 +1,10 @@
+# Fichiers de compilation et caches Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.db
+*.opendb
