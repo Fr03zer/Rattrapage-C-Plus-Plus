@@ -79,7 +79,7 @@ void Astronaut::update(Station& station) {
 
             // On demande à la station de créer l'astronaute sur cette case spécifique
             station.createAstronautNear(getX(), getY());
-            // Note : Tout comme 'createReserveNear', assure-toi que ta méthode gère le placement
+            
 
             oxygen -= 4; // Coût en oxygène de la reproduction
         }
