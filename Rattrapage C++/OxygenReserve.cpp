@@ -60,9 +60,9 @@ void OxygenReserve::update(Station& station) {
             {
                 // On crée une nouvelle réserve de concentration 2 sur cette case vide
                 station.createReserveNear(currentX, currentY);
-                // Note : Assure-toi que ta méthode 'createReserveNear' crée bien la réserve à la coordonnée cible !
+              
 
-                break; // Le sujet dit "vers UNE case adjacente vide", donc une seule diffusion suffit, on quitte la boucle.
+                break; 
             }
         }
     }
