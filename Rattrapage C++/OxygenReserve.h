@@ -1,11 +1,11 @@
 #ifndef OXYGENRESERVE_H
 #define OXYGENRESERVE_H
 
-#include "Entity.h" // <-- IMPORTANT : Est-ce bien "Entity.h" ou "Entite.h" ?
+#include "Entity.h" 
 
-class Station; // Déclaration anticipée
+class Station; 
 
-class OxygenReserve : public Entity { // <-- Si c'est rouge ici, le problème est dans Entity.h
+class OxygenReserve : public Entity { 
 private:
     int concentration;
 
